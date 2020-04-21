@@ -1,0 +1,55 @@
+.menu{
+  background-color: red;
+  overflow: hidden;
+}
+.menu ul {
+  float: left;
+}
+.menu ul li{
+   list-style-type: none;
+   float: left;
+   margin-right: 10px;
+   padding: 19px 10px 4px 0px;
+}
+
+.menu ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+ 
+}
+.menu ul li a:hover {
+   color: #fff;
+}
+
+.registration {
+  float: right;
+  margin-top: 20px;
+  
+  font-size: 20px;
+}
+.registration li{
+   float: left;
+   list-style: none;
+   margin-right: 20px;
+}
+.registration a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header-section {
+  /* background-image: url("../images/esha.jpg"); */
+  background-color: #ccc;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
